@@ -1,0 +1,20 @@
+Rhapsodii Shima 5.5.4
+
+Changes:
+- Updated installation and configuration instruction. Make sure to read them before asking for help.
+- Theme .ini is updated with the new WFL 5.5.4 features. File is now smaller and easier to maintain for future WFL updates.
+- Renewed source menu icons, for a cleaner and more consistent look.
+- Fixed text size and camera angles in coverflows for a more solid feel during transitions.
+- Reworked some cover animations.
+- Improved background and cover layout mode 2 for PC Dos/Win.
+- Replaced gear icon with the plugin icon in the Source Menu Setup sub sections.
+- Renewed the Handhelds Sourceflow page with a more realistic dot-matrix title.
+- Reworked support for regional consoles versions. If you used TURBOGRAFX or TURBODUO you have to set them up again. See 'Regional configurations.txt' for instructions.
+- Added initial support for Japanese covers with different box size (Famicom, Super Famicom, GB/GBC, Game Gear). 
+- Platform.ini includes all the latest Plugin Pack updates.
+- Cleaned up redundant platforms from platform.ini.
+- Cleaned up unused coverflows.
+- Added an alternate "stripe" sourceflow with a smaller size (showing 5 buttons instead of 3). See'instructions.txt' for configuration.
+- Removed Nintendo DS backgrounds and buttons. NDS emulation is still embrional on the Wii, I'll add it again when/if games will run at a playable state. NDS it's still in platform.ini for future use.
+
+

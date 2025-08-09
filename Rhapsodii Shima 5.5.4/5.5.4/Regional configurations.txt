@@ -1,0 +1,91 @@
+RHAPSODII SHIMA
+REGIONAL PLATFORMS CONFIGURATION
+
+See the chart below.
+
+Change Backgrounds:
+Backgrounds are found in wiiflow/backgrounds/Rhapsodii Shima/. 
+Backgrounds filenames must match the platform names in platflorm.ini or they won't be used.
+- Rename the background you want to change into something else (e.g. rename SUPERNES.png to SUPERNES_USA.png). 
+- Rename the one you wish to use with the plaform name alone (e.g. rename SUPERNES_JAP.png to SUPERNES.png).
+DEFAULT means no rename necessary.
+
+Change Source Buttons:
+Source Menus .ini files are found in wiiflow/source_menu/Rhapsodii Shima/.
+To change Button images, edit the source menu .ini file containing that button and replace the .png file after 'image=' and 'image_s='
+For Neo-Geo MVS/AES, you'll have to move the whole button from arcades.ini source menu to consoles.ini and change the images.
+DEFAULT means no Button image change needed in source menu .ini.
+
+Change Coverflow layout:
+- Set 'Lock Coverflows' to 'OFF' in Wiiflow Settings, page 13.
+- View your games and press 1 or 2 on the Wiimote until you reach the mode indicated.
+- Set 'Lock Coverflows' to 'ON' in Wiiflow Settings.  
+DEFAULT means no layout change is necessary.
+
+Put your USA/EUR/JAP boxcovers in the same cover folder or configure another folder in the plugin .ini file. 
+
+
+REFERENCE CHART
+	
+----------------------------------------------------------------------------------------------------
+NES				NES (U)			NES (E)			FAMICOM (J)
+Background name: NES.png	DEFAULT			DEFAULT			RENAME
+source menu: consoles.ini	DEFAULT			DEFAULT			EDIT
+Button images:			NES.png			NES.png			famicom.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 2		
+----------------------------------------------------------------------------------------------------
+SUPERNES			SUPERNES (U)		SUPERNES (E)		SUPER FAMICOM (J)
+Background name: SUPERNES.png	DEFAULT			RENAME			RENAME
+source menu: consoles.ini	DEFAULT			EDIT			EDIT
+Button images: 			SNES.png		super_nintendo.png	sfc.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 2
+----------------------------------------------------------------------------------------------------
+MEGADRIVE			GENESIS (U)		MEGADRIVE (E)		MEGADRIVE (J)
+Background name: MEGADRIVE.png	DEFAULT			RENAME			RENAME
+source menu: consoles.ini	DEFAULT			EDIT			EDIT
+Button images: 			Sega_Genesis.png	Sega_MegaDrive.png	Sega_MegaDrive-jap.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 1 (DEFAULT)
+----------------------------------------------------------------------------------------------------
+MEGA CD				SEGA CD (U)		MEGA CD (E)		MEGA CD (J)
+Background name: MEGACD.png	DEFAULT			RENAME			RENAME
+source menu: consoles.ini	DEFAULT			EDIT			EDIT
+Button images: 			Sega_CD.png		Sega_Mega_cd.png	Sega_Mega_cd-Jap.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 1 (DEFAULT)
+----------------------------------------------------------------------------------------------------
+PC-ENGINE			TURBOGRAFX 16 (U)	 			PC-ENGINE (J)
+Background name: PCENGINE.png	RENAME						DEFAULT
+source menu: consoles.ini	EDIT 						DEFAULT
+Button images: 			Turbo_Grafx.png		 			PC_Engine.png
+Coverflow layout:		mode 2			 			mode 1 (DEFAULT)
+----------------------------------------------------------------------------------------------------
+PC-ENGINE CD-ROM		TURBODUO (U)		 			PC-ENGINE CD-ROM (J)
+Background name: PCENGINECD.png	RENAME						DEFAULT
+source menu: consoles.ini	EDIT 						DEFAULT
+Button images: 			Turbo_Duo.png		 			pc_engine_cd.png
+Coverflow layout:		mode 2			 			mode 1 (DEFAULT)
+----------------------------------------------------------------------------------------------------
+NEO-GEO				NEOGEO MVS (arcade)	NEOGEO AES (console)	
+Background name: NEOGEO.png	DEFAULT			RENAME			
+source menus:			arcades.ini (default)	consoles.ini (move button and change images)			
+Button images: 			neo-geo_arcade.png	neo-geo_aes.png	
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)
+----------------------------------------------------------------------------------------------------
+GAMEBOY				GAMEBOY (U)		GAMEBOY (E)		GAMEBOY (J)
+Background name: GB.png		DEFAULT			DEFAULT			DEFAULT
+source menu: handhelds.ini	DEFAULT			DEFAULT			DEFAULT
+Button images: 			game_boy.png		game_boy.png		game_boy.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 2
+----------------------------------------------------------------------------------------------------
+GAMEBOY	COLOR			GAMEBOY COLOR (U)	GAMEBOY COLOR (E)	GAMEBOY COLOR (J)
+Background name: GBC.png	DEFAULT			DEFAULT			DEFAULT
+source menu: handhelds.ini	DEFAULT			DEFAULT			DEFAULT
+Button images: 			Game_Boy_Color.png	Game_Boy_Color.png	Game_Boy_Color.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 2
+----------------------------------------------------------------------------------------------------
+GAME GEAR			GAME GEAR (U)		GAME GEAR (E)		GAME GEAR (J)
+Background name: GAMEGEAR.png	DEFAULT			DEFAULT			DEFAULT
+source menu: handhelds.ini	DEFAULT			DEFAULT			DEFAULT
+Button images: 			Game_Gear.png		Game_Gear.png		Game_Gear.png
+Coverflow layout:		mode 1 (DEFAULT)	mode 1 (DEFAULT)	mode 2
+----------------------------------------------------------------------------------------------------
+	
